@@ -28,3 +28,7 @@ function operate(operator, a, b) {
       return "Invalid operator";
   }
 }
+
+let firstNumber;
+let operator;
+let secondNumber;
