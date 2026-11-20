@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.button-wrapper {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0.3rem;
+  width: 300px;
+  padding: 20px;
+}
+
+button {
+  padding: 10px;
+  background-color: darkblue;
+  color: aliceblue;
+  border: none;
+  border-radius: 8px;
+}
